@@ -6,9 +6,11 @@ This repository contains example initial conditions and parameter files for [Gen
 
 | Directory | Description |
 | --------- | ----------- |
-| solar | Solar system planets (19-03-2015). |
-| solar_ex | Solar system planets (19-03-2015) with some Earth crossers as massless tracer particles. |
+| solar | Solar system planets. |
+| solar_ex | Solar system planets with some Earth crossers as massless tracer particles. |
 | formation | Disk with 2000 massive planetesimal, eccentric Jupiter and Saturn (EJS), and a decaying gas disk. |
+
+Solar system planets are loaded from the [NASA/JPL Horizons](http://ssd.jpl.nasa.gov/horizons.cgi) system. Earth crossing asteroids are extracted from the [Astorb](http://asteroid.lowell.edu/external/astorb) database. State vectors are from 19 March 2015, JDTDB (Epoch Julian Date, Barycentric Dynamical Time).
 
 Each directory contains a Makefile to remove all simulation outputs. Simply run "make clean".
 
