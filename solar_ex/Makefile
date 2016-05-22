@@ -1,2 +1,2 @@
 clean:
-	rm *tracers* lock.dat master.out
+	rm *solar_ex* lock.dat master.out
